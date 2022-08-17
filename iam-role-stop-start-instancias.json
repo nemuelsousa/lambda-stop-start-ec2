@@ -15,8 +15,8 @@
                "Action": [
                     "ec2:DescribeInstances",
                     "ec2:DescribeRegions",
-                    "ec2:StartInstances",
-                    "ec2:StopInstances"
+                    "ec2:Start*",
+                    "ec2:Stop*"
                 ],
                 "Resource": "*"
                  }
